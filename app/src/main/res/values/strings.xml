@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">MediaCapture</string>
+    <string name="flash">Вспышка</string>
+    <string name="timer">Таймер</string>
+    <string name="gallery">Галерея</string>
+    <string name="capture">Съемка</string>
+    <string name="switch_camera">Переключить камеру</string>
+    <string name="photo">Фото</string>
+    <string name="video">Видео</string>
+    <string name="delete">Удалить</string>
+    <string name="back">Назад</string>
+    <string name="timer_3s">3 сек</string>
+    <string name="timer_5s">5 сек</string>
+    <string name="timer_10s">10 сек</string>
+    <string name="timer_off">Выкл</string>
+    <string name="no_media">Нет медиафайлов</string>
+    <string name="photo_saved">Фото сохранено</string>
+    <string name="video_saved">Видео сохранено</string>
+    <string name="file_deleted">Файл удален</string>
+    <string name="permission_required">Требуется разрешение камеры</string>
+    <string name="delete_confirmation">Удалить этот файл?</string>
+    <string name="delete_action">Удалить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete_error">Ошибка удаления</string>
+    <string name="storage_error">Ошибка доступа к хранилищу</string>
+    <string name="recording_time_default">00:00</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Корпус камеры -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,38h48c3.3,0 6,2.7 6,6v28c0,3.3 -2.7,6 -6,6H30c-3.3,0 -6,-2.7 -6,-6V44c0,-3.3 2.7,-6 6,-6z" />
+    <!-- Выступ для вспышки -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,32h16c2.2,0 4,1.8 4,4v2H36v-2c0,-2.2 1.8,-4 4,-4z" />
+    <!-- Объектив (внешний круг) -->
+    <path
+        android:fillColor="#1A1A2E"
+        android:pathData="M54,58m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0" />
+    <!-- Объектив (средний круг) -->
+    <path
+        android:fillColor="#3A3A5E"
+        android:pathData="M54,58m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" />
+    <!-- Объектив (внутренний круг - блик) -->
+    <path
+        android:fillColor="#6C63FF"
+        android:pathData="M54,58m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <!-- Блик на объективе -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M50,54m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+    <!-- Вспышка/сенсор -->
+    <path
+        android:fillColor="#FFEB3B"
+        android:pathData="M74,46m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+</vector>

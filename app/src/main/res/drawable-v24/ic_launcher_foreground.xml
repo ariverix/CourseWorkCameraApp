@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Корпус камеры (уменьшен и центрирован) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,42h44c2.5,0 4.5,2 4.5,4.5v25c0,2.5 -2,4.5 -4.5,4.5H32c-2.5,0 -4.5,-2 -4.5,-4.5v-25c0,-2.5 2,-4.5 4.5,-4.5z" />
+
+    <!-- Выступ сверху (вспышка/видоискатель) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,37h16c1.7,0 3,1.3 3,3v2H37v-2c0,-1.7 1.3,-3 3,-3z" />
+
+    <!-- Объектив (внешний круг) -->
+    <path
+        android:fillColor="#1A1A2E"
+        android:pathData="M54,59m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0" />
+
+    <!-- Объектив (средний круг) -->
+    <path
+        android:fillColor="#2D2D44"
+        android:pathData="M54,59m-10,0a10,10 0,1 1,20 0a10,10 0,1 1,-20 0" />
+
+    <!-- Объектив (внутренний круг) -->
+    <path
+        android:fillColor="#3D3D5C"
+        android:pathData="M54,59m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+
+    <!-- Блик на объективе -->
+    <path
+        android:fillColor="#5555AA"
+        android:pathData="M50,55m-2,0a2,2 0,1 1,4 0a2,2 0,1 1,-4 0" />
+
+    <!-- Индикатор вспышки -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M72,47m-2.5,0a2.5,2.5 0,1 1,5 0a2.5,2.5 0,1 1,-5 0" />
+
+</vector>

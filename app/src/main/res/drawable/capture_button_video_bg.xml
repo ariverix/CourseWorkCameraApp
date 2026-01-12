@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Внешнее кольцо -->
+    <item>
+        <shape android:shape="oval">
+            <stroke
+                android:width="4dp"
+                android:color="@android:color/white" />
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+    <!-- Внутренний круг - красный для видео -->
+    <item
+        android:bottom="8dp"
+        android:left="8dp"
+        android:right="8dp"
+        android:top="8dp">
+        <shape android:shape="oval">
+            <solid android:color="#FF4444" />
+        </shape>
+    </item>
+</layer-list>
